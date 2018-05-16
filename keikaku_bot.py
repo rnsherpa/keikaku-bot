@@ -5,14 +5,14 @@ import os
 
 def bot_login():
     print("Logging in...")
-    r = praw.Reddit(username = config.username,
+    login = praw.Reddit(username = config.username,
             password = config.password,
             client_id = config.client_id,
             client_secret = config.client_secret,
             user_agent = config.user_agent)
     print("Logged in!")
 
-    return r    
+    return login    
 
 def run_bot(r, comments_replied_to):
     print("Obtaining comments...")
@@ -42,8 +42,8 @@ def get_saved_comments():
         
     return comments_replied_to    
 
-r = bot_login()
+keikaku = bot_login()
 comments_replied_to = get_saved_comments()
 
 while True:
-    run_bot(r, comments_replied_to)
+    run_bot(keikaku, comments_replied_to)
