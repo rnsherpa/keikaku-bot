@@ -27,6 +27,8 @@ def run_bot(r, comments_replied_to):
 
             with open("comments_replied_to.txt", "a") as f:
                 f.write(comment.id + "\n")
+            
+            print("Obtaining comments...")
     
     #Sleep for 10s
     time.sleep(10)
