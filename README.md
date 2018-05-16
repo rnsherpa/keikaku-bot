@@ -1,4 +1,4 @@
-Replies to comments that contain "keikaku" with "Translator's note: Keikaku means plan".
+Reddit bot that replies to comments that contain "keikaku" with "Translator's note: Keikaku means plan".
 
 A small project I took on to start learning Python.
 
