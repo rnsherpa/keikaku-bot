@@ -1,1 +1,1 @@
-web: python keikaku_bot.py
+worker python keikaku_bot.py
