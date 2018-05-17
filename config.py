@@ -1,0 +1,5 @@
+username = "keikaku-bot"
+password = "rns100%"
+client_id = "FKpzXpTCe8Msig"
+client_secret = "Y8NPzhxo6C_JhS8AMHY65if5Ja0"
+user_agent = "keikaku_bot v0.1"
