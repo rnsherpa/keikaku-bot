@@ -1,1 +1,0 @@
-worker python keikaku_bot.py
