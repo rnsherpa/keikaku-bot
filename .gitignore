@@ -10,7 +10,7 @@
 config.py
 Procfile
 Pipfile*
-__pycache__
+/__pycache__/*
 
 # Packages #
 ############
