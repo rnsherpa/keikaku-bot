@@ -7,6 +7,10 @@
 *.o
 *.so
 *.txt
+config.py
+Procfile
+Pipfile*
+__pycache__
 
 # Packages #
 ############
